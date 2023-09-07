@@ -1,6 +1,6 @@
 package ru.netology.services;
 
-public class calculateservice {
+public class CalculateService {
 
     public int calculate(int income, int expenses, int threshold) {
         int count = 0; // счётчик месяцев отдыха
