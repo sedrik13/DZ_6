@@ -3,7 +3,7 @@ package ru.netology.services;
 public class Main {
 
     public static void main(String[] args) {
-        calculateservice service = new calculateservice();
+        CalculateService service = new CalculateService();
 
         int income = 10_000; //ежемесячный доход
         int expenses = 3_000; //ежемесячные траты
