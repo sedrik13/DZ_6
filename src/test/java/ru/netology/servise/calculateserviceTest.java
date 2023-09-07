@@ -2,12 +2,13 @@ package ru.netology.servise;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
-import ru.netology.services.calculateservice;
+import ru.netology.services.CalculateService;
 
-public class calculateserviceTest {
+
+public class CalculateServiceTest {
     @Test
     public void test() {
-        calculateservice service = new calculateservice();
+        CalculateService service = new CalculateService();
 
         int income = 10_000; //ежемесячный доход
         int expenses = 3_000; //ежемесячные траты
@@ -18,7 +19,7 @@ public class calculateserviceTest {
 
         //@Test
         //public void test() {
-        //calculateservice service = new calculateservice();
+        //CalculateService service = new CalculateService();
 
         //int income = 100_000; //ежемесячный доход
         //int expenses = 60_000; //ежемесячные траты
