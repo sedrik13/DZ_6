@@ -10,7 +10,7 @@ public class Main {
         int threshold = 20_000; // сумма при которой можно отдохнуть
 
 
-        int count = service.calculate(income, expenses, threshold);
+        int count = service.calculateMonth(income, expenses, threshold);
 
         System.out.println("количество месяцев отдыха равно " + count);
     }
